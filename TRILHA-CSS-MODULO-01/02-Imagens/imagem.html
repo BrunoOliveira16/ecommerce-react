@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        div {
+            width: 200px;
+            height: 300px;
+            border: 5px solid blue;
+            margin: 10px 0;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        #contain {
+            object-fit: contain;
+        }
+        #cover {
+            object-fit: cover;
+        }
+        #none {
+            object-fit: none;
+        }
+        #scale-down {
+            object-fit: scale-down;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>object-fit</code></h1>
+
+    <code>object-fit: fill;</code> (padrão)
+    <div>
+        <img src="./img/logo.jpeg" alt="logo" id="fill">
+    </div>
+
+    <code>object-fit: contain;</code> 
+    <div>
+        <img src="./img//logo.jpeg" alt="logo" id="contain">
+    </div>
+
+    <code>object-fit: cover;</code> 
+    <div>
+        <img src="./img//logo.jpeg" alt="logo" id="cover">
+    </div>
+
+    <code>object-fit: none;</code> 
+    <div>
+        <img src="./img//logo.jpeg" alt="logo" id="none">
+    </div>
+
+    <code>object-fit: scale-down;</code> 
+    <div>
+        <img src="./img//logo.jpeg" alt="logo" id="scale-down">
+    </div>
+</body>
+</html>
