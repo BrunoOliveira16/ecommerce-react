@@ -1,0 +1,33 @@
+code {
+font-weight: bolder;
+font-size: 1.2rem;
+color: red;
+}
+    
+div {
+margin: 10px 0 30px;
+}
+    
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed black;
+    padding: 30px;
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+
+    background:
+        url(../images/background-00.jpg) /* Image */
+        top center / 300px 300px /* position / size */
+        no-repeat /* repeat */
+        local /* attachment */
+        padding-box /* origin */
+        content-box /* clip */
+        purple /* color */
+    ;
+}
+
+#image {
+    background: url(../images/logo.svg) black no-repeat center;
+}
