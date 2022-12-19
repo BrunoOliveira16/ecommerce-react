@@ -18,15 +18,21 @@
             height: 200px;
             margin-bottom: 20px;
             border-width: 5px;
-            border-style: solid;
-            border-color: green;
         }
-        #border {
-            border: 2px solid green;
+        #border-01 {
+            border-radius: 20px;
         }
-        #borders {
-            border-top: 5px solid orangered;
-            border-bottom: 5px dashed blue;
+        #border-02 {
+            border-radius: 20px 10px;
+        }
+        #border-03 {
+            border-radius: 20px 10px 30px;
+        }
+        #border-04 {
+            border-radius: 50px/100px;
+        }
+        #border-05 {
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -42,13 +48,19 @@
 
     <h2>Exemplo:</h2>
 
-    <div class="exemplo"></div>
+    <code>border-radius: 20px;</code>
+    <div id="border-01" class="exemplo"></div>
 
-    <code>border: 2px solid green;</code>
-    <div id="border" class="exemplo"></div>
+    <code>border-radius: 20px 10px;</code>
+    <div id="border-02" class="exemplo"></div>
 
-    <code>border-top: 5px solid orangered;</code><br>
-    <code>border-bottom: 5px dashed blue;</code>
-    <div id="borders" class="exemplo"></div>
+    <code>border-radius: 20px 10px 30px;</code>
+    <div id="border-03" class="exemplo"></div>
+
+    <code>border-radius: 50px/100px;</code>
+    <div id="border-04" class="exemplo"></div>
+
+    <code>border-radius: 50%;</code>
+    <div id="border-05" class="exemplo"></div>
 </body>
 </html>
