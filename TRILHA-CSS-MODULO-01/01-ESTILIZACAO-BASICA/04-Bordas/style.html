@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Bordas</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+        }
+
+        .exemplo {
+            background-color: palegreen;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+            border-width: 5px;
+            border-style: solid;
+        }
+        #dashed {
+            border-style: dashed;
+        }
+        #dotted {
+            border-style: dotted;
+        }
+        #double {
+            border-style: double;
+        }
+        #groove {
+            border-style: groove;
+        }
+        #ridge {
+            border-style: ridge;
+        }
+        #inset {
+            border-style: inset;
+        }
+        #outset {
+            border-style: outset;
+        }
+
+        #mix {
+            border-style: solid dashed dotted double;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas</h1>
+    <p>Podemos definir as configurações das nossas bordas através das propriedades:</p>
+
+    <ul>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>border-color</li>
+    </ul>
+
+    <h2>Exemplo:</h2>
+
+    <code>border-style: solid;</code>
+    <div class="exemplo"></div>
+
+    <code>border-style: dashed;</code>
+    <div class="exemplo" id="dashed"></div>
+
+    <code>border-style: dotted;</code>
+    <div class="exemplo" id="dotted"></div>
+
+    <code>border-style: double;</code>
+    <div class="exemplo" id="double"></div>
+
+    <code>border-style: groove;</code>
+    <div class="exemplo" id="groove"></div>
+
+    <code>border-style: ridge;</code>
+    <div class="exemplo" id="ridge"></div>
+
+    <code>border-style: inset;</code>
+    <div class="exemplo" id="inset"></div>
+
+    <code>border-style: outset;</code>
+    <div class="exemplo" id="outset"></div>
+
+    <code>border-style: mix de valores;</code>
+    <div class="exemplo" id="mix"></div>
+</body>
+</html>
