@@ -1,0 +1,11 @@
+@import url("./global.css");
+
+p {
+	font-weight: light;
+	font-style: italic;
+}
+
+h1 {
+	font-weight: bold;
+	font-style: italic;
+}
