@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Overflow</title>
+    <style>
+        .exemplo {
+            background-color: orange;
+            border: 3px solid purple;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        #visible {
+            overflow: visible;
+        }
+        #hidden {
+            overflow: hidden;
+        }
+        #scroll {
+            overflow: scroll;
+        }
+        #auto {
+            overflow: auto;
+        }
+        #exemplo-2 {
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h2>Propriedade <code>overflow</code></h2>
+    <p>Controla como o conteúdo deve ser exibido caso ultrapasse os limites do container.</p>
+
+    <i>Exemplos:</i> <br><br><br>
+
+    <code>overflow: visible;</code>
+    <div class="exemplo" id="visible">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit quae explicabo obcaecati, illum quam distinctio sapiente nam accusamus rem. Quasi, dignissimos. Provident atque voluptate culpa pariatur nobis quidem veniam?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum repudiandae fugit vitae obcaecati enim expedita alias deleniti ad delectus ducimus, aliquam molestias non consectetur odio aut vel dolorum pariatur recusandae.</p>
+    </div><br><br><br><br><br><br><br><br><br>
+
+    <code>overflow: hidden;</code>
+    <div class="exemplo" id="hidden">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit quae explicabo obcaecati, illum quam distinctio sapiente nam accusamus rem. Quasi, dignissimos. Provident atque voluptate culpa pariatur nobis quidem veniam?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum repudiandae fugit vitae obcaecati enim expedita alias deleniti ad delectus ducimus, aliquam molestias non consectetur odio aut vel dolorum pariatur recusandae.</p>
+    </div><br><br>
+
+    <code>overflow: scroll;</code>
+    <div class="exemplo" id="scroll">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit quae explicabo obcaecati, illum quam distinctio sapiente nam accusamus rem. Quasi, dignissimos. Provident atque voluptate culpa pariatur nobis quidem veniam?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum repudiandae fugit vitae obcaecati enim expedita alias deleniti ad delectus ducimus, aliquam molestias non consectetur odio aut vel dolorum pariatur recusandae.</p>
+    </div><br><br>
+
+    <code>overflow: auto;</code>
+    <div class="exemplo" id="auto">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit quae explicabo obcaecati, illum quam distinctio sapiente nam accusamus rem. Quasi, dignissimos. Provident atque voluptate culpa pariatur nobis quidem veniam?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum repudiandae fugit vitae obcaecati enim expedita alias deleniti ad delectus ducimus, aliquam molestias non consectetur odio aut vel dolorum pariatur recusandae.</p>
+    </div><br><br><br>
+
+    <code>overflow-x e overflow-y</code>
+    <div class="exemplo" id="exemplo-2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit quae explicabo obcaecati, illum quam distinctio sapiente nam accusamus rem. Quasi, dignissimos. Provident atque voluptate culpa pariatur nobis quidem veniam?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum repudiandae fugit vitae obcaecati enim expedita alias deleniti ad delectus ducimus, aliquam molestias non consectetur odio aut vel dolorum pariatur recusandae.</p>
+    </div><br><br><br>
+</body>
+</html>
