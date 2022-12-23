@@ -1,0 +1,32 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>word-wrap</title>
+		<style>
+			.exemplo {
+				width: 100px;
+				color: black;
+				background-color: blueviolet;
+			}
+			#normal {
+				word-wrap: normal;
+			}
+			#break-word {
+				word-wrap: break-word;
+			}					
+		</style>
+	</head>
+	<body>
+		<h1>Propriedade <code>word-wrap</code></h1>
+
+		<p>Define, caso uma palavra seja muito grande para caber em uma linha, se ela será quebrada em qualquer caractere para que uma parte dela fique na linha e o restante na próxima, ou se não, toda palavra deve ficar na mesma linha e ultrapassar os limites que definimos pra o elemento.</p>
+		
+		<code>word-wrap: normal;</code>
+		<p id="normal" class="exemplo">Trilha de CSS TrilhadeCSStudoJunto Trilha de CSS</p>
+
+		<code>word-wrap: break-word;</code>
+		<p id="break-word" class="exemplo">Trilha de CSS TrilhadeCSStudoJunto Trilha de CSS</p>
+	</body>
+</html>
