@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de Medidas Relativas</title>
+    <style>
+        #exemplo-pixel {
+            font-size: 30px;
+            background-color: lightblue;
+            width: 300px;
+        }
+        #exemplo-porcentagem{
+            font-size: 30px;
+            background-color: lightcoral;
+            width: 50%;
+        }
+        #elemento-pai{
+            font-size: 40px;
+            border: 5px solid black;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unidades de medida relativas</h1>
+    <p>As unidades de medida relativas são calculadas com base em unidades já conhecidas de um <b>outro elemento</b>, o que faz com que o resultado possa <b>variar</b> de acordo com o valor da propriedade do elemento no qual estamos nos baseando</p>
+    <ul>
+        <li>%</li>
+        <li>em</li>
+        <li>rem</li>
+        <li>vw</li>
+        <li>vh</li>
+    </ul>
+
+    <h2>Porcentagem (%)</h2>
+    <p>A porcentagem é uma unidade de medida que irá utilizar como referência o elemento pai para se basear, podendo alterar os resultados de acordo com o lugar em que está inserido.</p>
+    <p>Pixel vs porcentagem</p>
+    <div id="exemplo-pixel">
+        width: 300px;
+    </div>
+    <div id="exemplo-porcentagem">
+        width: 50%;
+    </div>
+
+    <br><hr>
+
+    <p>Elemento pai possui 500px de largura e um font-size de 40px.</p>
+    <div id="elemento-pai">
+        <div id="exemplo-pixel">
+            width: 300px
+        </div>
+
+        <div id="exemplo-porcentagem">
+            width: 50%;
+        </div>
+    </div><br><br>
+
+    <h2>Unidade de Medida em</h2>
+
+    <h2>Unidade de Medida rem</h2>
+
+</body>
+</html>
