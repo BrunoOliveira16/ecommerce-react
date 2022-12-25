@@ -7,17 +7,21 @@
 }
 
 body {
+    position: relative;
     max-width: 1440px;
+    background: #000000;
 }
 
 .banner {
     width: 100%;
     height: 605px;
-    position: absolute;
+    position: relative;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
     background-image: url(../imagem/banner.png);
     display: flex;
     justify-content: center;
+    color: #33A8DB;
+    border-bottom: 1px solid #33A8DB;
 }
 
 .banner-content {
@@ -40,6 +44,7 @@ body {
     font-weight: 900;
     font-size: 2.5rem;
     line-height: 2.9rem;
+    text-transform: uppercase;
     background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -56,4 +61,78 @@ body {
     line-height: 1.4rem;
     text-align: center;
     color: #FFFFFF;
+}
+
+.banner-content button {
+    width: 326px;
+    height: 57px;
+    padding: 19px;
+    gap: 31px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3BA1CD;
+    background: none;
+    transition: 0.8s;
+
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.21em;
+    color: #31A8DD;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner-content button:hover {
+    background: #31A8DD;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+}
+
+/* CSS - Section-01*/
+
+.course-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    width: 792px;
+    height: 325px;
+    margin: 0 auto;
+}
+
+.course-content h2 {
+    font-family: Raleway;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.19em;
+    font-weight: 700;
+    color: #33A8DB;
+    text-transform: uppercase;
+}
+
+.course-content p {
+    font-family: Raleway;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+
+    width: 792px;
+    height: 38px;
 }
