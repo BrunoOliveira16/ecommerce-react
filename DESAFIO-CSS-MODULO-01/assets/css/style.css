@@ -8,7 +8,7 @@
 
 body {
     position: relative;
-    max-width: 1440px;
+    max-width: 1920px;
     background: #000000;
     margin: 0 auto;
 }
@@ -181,9 +181,9 @@ body {
     align-items: center;
 
     background-image: url(../imagem/woman-code.png);
-    background-size: 1439px 960px;
+    background-size: cover;
     background-attachment: fixed;
-    background-position: center top 20px;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 
@@ -212,7 +212,8 @@ body {
 }
 
 #professional-challenges h2 {
-    width: 746px;
+    position: relative;
+    width: 846px;
     height: 76px;
     margin: 76px auto 32px;
 

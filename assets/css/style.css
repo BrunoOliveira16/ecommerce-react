@@ -1,0 +1,94 @@
+body {
+    background: rgba(0, 0, 0, 0.8);
+}
+h1 {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #33A8DB;
+    text-shadow: 5px 5px 0px #031922;
+}
+p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 1.5rem;
+    margin: 50px 0;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.card-image {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+.card-image img {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease 0s;
+}
+
+.card-image img:hover {
+	transform: scale(1.1);
+} 
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.card-content h3 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #33A8DB;
+    text-transform: uppercase;
+}
+
+.card-content-link {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+}
+
+.card-content-link a {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.card-content-link a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
