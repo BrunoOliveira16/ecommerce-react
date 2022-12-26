@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -10,6 +10,7 @@ body {
     position: relative;
     max-width: 1440px;
     background: #000000;
+    margin: 0 auto;
 }
 
 .banner {
@@ -112,7 +113,7 @@ body {
     position: relative;
     width: 792px;
     height: 325px;
-    margin: 118px auto 0;
+    margin: 118px auto 90px;
 }
 
 .course-content h2 {
@@ -168,6 +169,77 @@ body {
 
 .module span {
     color: #33A8DB;
+}
+
+/* Section transform-word*/
+#transform-world {
+    position: relative;
+    height: 363px;
+    border: 1px solid #33A8DB;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url(../imagem/woman-code.png);
+    background-size: 1439px 960px;
+    background-attachment: fixed;
+    background-position: center top 20px;
+    background-repeat: no-repeat;
+}
+
+#transform-world  p {
+    position: absolute;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    line-height: 2.9rem;
+    color: #FFFFFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+
+    width: 244px;
+    height: 141px;
+    left: 198px;
+}
+
+/* Section professional Challenges*/
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#professional-challenges h2 {
+    width: 746px;
+    height: 76px;
+    margin: 76px auto 32px;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    text-align: center;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+
+    color: #33A8DB;
+}
+
+#professional-challenges p {
+    position: relative;
+    width: 792px;
+    height: 76px;
+    margin: 40px auto 91px;
+
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 /* Footer */
