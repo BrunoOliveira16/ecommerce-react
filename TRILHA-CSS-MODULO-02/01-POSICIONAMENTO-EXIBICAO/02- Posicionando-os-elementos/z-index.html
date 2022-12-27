@@ -1,0 +1,71 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>z-index</title>
+		<style>
+			.body {
+				font-family: sans-serif;
+				height: 200vh;
+			}		
+			.exemplo {
+				width: 100px;
+				height: 100px;
+				margin: 10px;
+				padding: 10px;
+				border-radius: 4px;
+				position: absolute;
+			}
+			h1 {
+				text-align: center;
+			}
+			#elemento-01 {
+				background-color: orange;
+				top: 10px;
+				left:10px;
+				z-index: 5;
+			}	
+			#elemento-02 {
+				background-color: palevioletred;
+				top: 20px;
+				left:20px;
+				z-index: 4;
+			}	
+			#elemento-03 {
+				background-color: palegreen;
+				top: 30px;
+				left:30px;
+				z-index: 3;
+			}	
+			#elemento-04 {
+				background-color: paleturquoise;
+				top: 40px;
+				left:40px;
+				z-index: 2;
+			}
+			#elemento-05 {
+				background-color: violet;
+				top: 50px;
+				left:50px;
+				z-index: 1;
+			}
+			#elemento-06 {
+				background-color: blueviolet;
+				top: 60px;
+				left:60px;
+				z-index: 0;
+			}		
+		</style>
+	</head>
+	<body>
+		<h1>Propriedade <code>z-index</code></h1>
+		
+		<div id="elemento-01" class="exemplo">Elemento 01</div>
+		<div id="elemento-02" class="exemplo">Elemento 02</div>
+		<div id="elemento-03" class="exemplo">Elemento 03</div>
+		<div id="elemento-04" class="exemplo">Elemento 04</div>
+		<div id="elemento-05" class="exemplo">Elemento 05</div>
+		<div id="elemento-06" class="exemplo">Elemento 06</div>		
+	</body>
+</html>

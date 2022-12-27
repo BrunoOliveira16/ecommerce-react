@@ -1,0 +1,34 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Visibility-hidden</title>
+		<style>
+			.body {
+				font-family: sans-serif;
+			}		
+			.exemplo {
+				background-color: palevioletred;
+			}
+			#item-01 {
+				/*display: none;*/
+			}	
+			#item-02 {
+				visibility: hidden;
+			}	
+			#item-03 {
+				/*display: none;*/
+			}				
+		</style>
+	</head>
+	<body>
+		<h1>display: none vs visibility: hidden</h1>
+		
+		<div>
+			<span id="item-01" class="exemplo">Item-01</span>
+			<span id="item-02" class="exemplo">Item-02</span>
+			<span id="item-03" class="exemplo">Item-03</span>
+		</div>
+	</body>
+</html>
