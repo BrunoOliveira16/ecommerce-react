@@ -158,3 +158,35 @@
 #exemplo-02 {
 	gap: 20px 30px;
 }
+
+/* Order */
+.container-order {
+	width: 400px;
+	padding: 10px;
+	display: flex;
+	margin-bottom: 20px;
+	gap: 10px;
+
+	background-color: blueviolet;
+}
+
+.order-item {
+	background-color: yellow;
+	padding: 8px;
+}
+
+#order-01 {
+	flex-flow: row wrap;
+}
+
+#order-02 {
+	flex-flow: column wrap;
+}
+
+.box-04 {
+	order: -1;
+}
+
+.box-09 {
+	order: -2;
+}
