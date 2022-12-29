@@ -19,10 +19,12 @@ body {
 
 /* CSS Header */
 .menu {
+	width: 100vw;
 	height: 5.6rem; /*56px*/
 	padding: 0 2.4rem; /*24px*/
 	gap: 3.2rem; /*32px*/
 
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -45,7 +47,7 @@ body {
 	color: #5e5d5d;
 
 	position: relative;
-	top: -0.8rem;
+	top: -0.8rem; /*8px*/
 }
 
 .menu-center {
@@ -55,7 +57,7 @@ body {
 	display: flex;
 	align-items: center;
 
-	border-radius: 20px;
+	border-radius: 2rem; /*20px*/
 }
 
 .menu-center input {
@@ -66,8 +68,8 @@ body {
 	
 	color: #5e5d5d;
 	border: 1px solid #CCCCCC;
-	border-top-left-radius: 2rem;
-	border-bottom-left-radius: 2rem;
+	border-top-left-radius: 2rem; /*20px*/
+	border-bottom-left-radius: 2rem; /*20px*/
 }
 
 .menu-center a {
@@ -80,8 +82,8 @@ body {
 
 	background-color: #F8F8F8;
 	border: 1px solid #CCCCCC;
-	border-top-right-radius: 2rem;
-	border-bottom-right-radius: 2rem;
+	border-top-right-radius: 2rem; /*20px*/
+	border-bottom-right-radius: 2rem; /*20px*/
 }
 
 .menu-right {
