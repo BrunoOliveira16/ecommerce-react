@@ -34,12 +34,12 @@ body {
 }
 
 .menu-left {
-	width: 14.6rem; /*146px*/
+	width: 18.6rem; /*186px*/
 	height: 2.4rem; /*24px*/
 	
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .menu-left sup {
@@ -48,10 +48,11 @@ body {
 
 	position: relative;
 	top: -0.8rem; /*8px*/
+	left: -2.5rem; /*-25px*/
 }
 
 .menu-center {
-	width: 70.4rem; /*404px*/
+	width: 65.4rem; /*654px*/
 	height: 4rem; /*40px*/
 
 	display: flex;
