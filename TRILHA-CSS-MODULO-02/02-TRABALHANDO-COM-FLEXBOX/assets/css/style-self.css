@@ -1,0 +1,35 @@
+h1, h2, b {
+	color: red;
+}
+
+.container {
+	background: blueviolet;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 300px
+	height: 200px;
+
+	/*flex container props*/
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+#container-1 {
+	flex-direction: column;
+}
+
+.item {
+	background: yellow;
+	text-align: center;
+	flex: 1; /*flex: 1 1 auto;*/
+}
+
+item-02 {
+	align-self: flex-end;
+}
+
+
+
+

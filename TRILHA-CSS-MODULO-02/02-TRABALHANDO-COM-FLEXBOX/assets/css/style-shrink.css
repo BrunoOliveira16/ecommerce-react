@@ -1,0 +1,43 @@
+h1, b {
+	color: red;
+}
+
+p {
+	color: black;
+}
+
+.container {
+	background: blueviolet;
+	padding: 10px;
+	margin-bottom: 20px;
+	
+	width: 300px;
+	height: 300px;
+
+	/*flex container props*/
+	display: flex;
+	gap: 10px;
+}
+
+#container-01 {
+	flex-flow: row nowrap;
+}
+
+#container-02 {
+	flex-flow: column nowrap;
+}
+
+.item {
+	padding: 8px;
+	background: yellow;
+	
+	width: 30px;
+	height: 30px;
+	flex-shrink: 1;
+}
+
+.item-03 {
+	flex-shrink: 2;
+}
+
+
