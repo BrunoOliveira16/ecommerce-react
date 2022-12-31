@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    border: 3px solid;
+    grid-template: repeat(3, 200px) / repeat(3, 1fr);
+
+    /*row-gap: 15px;
+    column-gap: 15px;*/
+    gap: 15px;
+    padding: 15px;
+}
+
+.item-01 {
+    background-color: palegoldenrod;
+}
+
+.item-02 {
+    background-color: paleturquoise;
+}
+
+.item-03 {
+    background-color: palegreen;
+}
+
+.item-04 {
+    background-color: palevioletred;
+}
+
+.item-05 {
+    background-color: lightseagreen;
+}
+
+.item-06 {
+    background-color: blueviolet;
+}
+
+.item-07 {
+    background-color: palegreen;
+}
+
+.item-08 {
+    background-color: palegoldenrod;
+}
+
+.item-09 {
+    background-color: paleturquoise;
+}
