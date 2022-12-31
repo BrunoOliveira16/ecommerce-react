@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/column-row-grid.css">
+    <title>column-row-grid</title>
+</head>
+
+<body>
+    <h1>Adicionando colunas e linhas ao grid</h1>
+    <code>display: grid;</code>
+    <code>grid-template-columns: 200px 200px 200px;</code>
+    <code>grid-template-rows: 300px 200px;</code>
+    <div class="container">
+        <div class="item item-01">Item 01</div>
+        <div class="item item-02">Item 02</div>
+        <div class="item item-03">Item 03</div>
+        <div class="item item-04">Item 04</div>
+        <div class="item item-05">Item 05</div>
+        <div class="item item-06">Item 06</div>
+    </div>
+
+    <br>
+
+    <h1>Utilizando a unidade de medida fr</h1>
+    <code>display: grid;</code>
+    <code>grid-template-columns: 2fr 1fr 1fr;</code>
+    <code>grid-template-rows: 2fr 1fr 1fr;</code>
+    <div class="container-01">
+        <div class="item item-01">Item 01</div>
+        <div class="item item-02">Item 02</div>
+        <div class="item item-03">Item 03</div>
+        <div class="item item-04">Item 04</div>
+        <div class="item item-05">Item 05</div>
+        <div class="item item-06">Item 06</div>
+    </div>
+
+    <br>
+
+    <h1>Utilizando a função repeat</h1>
+    <code>display: grid;</code>
+    <code>grid-template-columns: repeat(3, 1fr);</code>
+    <code>grid-template-rows: repeat(2, 1fr);</code>
+    <div class="container-02">
+        <div class="item item-01">Item 01</div>
+        <div class="item item-02">Item 02</div>
+        <div class="item item-03">Item 03</div>
+        <div class="item item-04">Item 04</div>
+        <div class="item item-05">Item 05</div>
+        <div class="item item-06">Item 06</div>
+    </div>
+    
+    <br>
+
+    <h1>Utilizando auto-fill</h1>
+    <code>display: grid;</code>
+    <code>grid-template-columns: repeat(auto-fill, 100px);</code>
+    <code>grid-template-rows: repeat(2, 1fr);</code>
+    <div class="container-03">
+        <div class="item item-01">Item 01</div>
+        <div class="item item-02">Item 02</div>
+        <div class="item item-03">Item 03</div>
+        <div class="item item-04">Item 04</div>
+        <div class="item item-05">Item 05</div>
+        <div class="item item-06">Item 06</div>
+    </div>
+    
+    <br>
+
+    <h1>Utilizando auto-fit</h1>
+    <code>display: grid;</code>
+    <code>grid-template-columns: repeat(auto-fit, 100px);</code>
+    <code>grid-template-rows: repeat(2, 1fr);</code>
+    <div class="container-04">
+        <div class="item item-01">Item 01</div>
+        <div class="item item-02">Item 02</div>
+        <div class="item item-03">Item 03</div>
+        <div class="item item-04">Item 04</div>
+        <div class="item item-05">Item 05</div>
+        <div class="item item-06">Item 06</div>
+    </div>
+ 
+    <br>
+
+    <h1>Utilizando min-content</h1>
+    <code>display: grid;</code>
+    <code>grid-template-columns: min-content min-content;</code>
+    <div class="container-05">
+        <div class="item item-01">Trilha de CSS Web Developer</div>
+        <div class="item item-02">Item 02</div>
+        <div class="item item-03">Item 03</div>
+        <div class="item item-04">Item 04</div>
+        <div class="item item-05">Item 05</div>
+        <div class="item item-06">Item 06</div>
+    </div>
+
+    <br>
+
+    <h1>Utilizando max-content</h1>
+    <code>display: grid;</code>
+    <code>grid-template-columns: max-content;</code>
+    <div class="container-06">
+        <div class="item item-01">Trilha de CSS Web Developer</div>
+        <div class="item item-02">Item 02</div>
+        <div class="item item-03">Item 03</div>
+        <div class="item item-04">Item 04</div>
+        <div class="item item-05">Item 05</div>
+        <div class="item item-06">Item 06</div>
+    </div>
+
+    <br>
+
+    <h1>Utilizando auto</h1>
+    <code>display: grid;</code>
+    <code>grid-template-columns: repeat(3, auto);</code>
+    <div class="container-07">
+        <div class="item item-01">Item 01</div>
+        <div class="item item-02">Item 02</div>
+        <div class="item item-03">Item 03</div>
+        <div class="item item-04">Item 04</div>
+        <div class="item item-05">Item 05</div>
+        <div class="item item-06">Item 06</div>
+    </div>
+
+</body>
+
+</html>

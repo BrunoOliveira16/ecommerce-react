@@ -1,0 +1,30 @@
+@import url(./global.css);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+
+    background-color: #F9F9F9;
+}
+
+h1, code {
+    color: red;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+code {
+    display: block;
+    margin-bottom: 5px;
+}
