@@ -35,6 +35,11 @@
     place-content: space-between center;
 }
 
+.grid-06 {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    place-items: start center;
+}
+
 code {
     color: black;
 }
@@ -73,4 +78,13 @@ code {
 
 .item-09 {
     background-color: paleturquoise;
+}
+
+.self {
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.place-self {
+   place-self: stretch;
 }

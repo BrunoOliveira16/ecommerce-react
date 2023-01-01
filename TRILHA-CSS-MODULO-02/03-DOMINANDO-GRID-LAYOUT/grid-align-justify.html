@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/align-justify.css">
-    <title>Shorthand Grid</title>
+    <title>Grid align and justify</title>
 </head>
 <body>
     <h1>Alinhando os itens com justify-items e align-items</h1>
@@ -112,6 +112,35 @@
         <div class="item-07">Item 07 Trilha CSS</div>
         <div class="item-08">Item 08 Trilha CSS</div>
         <div class="item-09">Item 09 Trilha CSS</div>
+    </div>
+
+    <h2>Justify e align self</h2>
+    <code>align-self: stretch;</code>
+    <code>justify-self: stretch;</code>
+    <div class="container grid-06">
+        <div class="item-01">Item 01</div>
+        <div class="item-02">Item 02</div>
+        <div class="item-03 self">Item 03</div>
+        <div class="item-04 self">Item 04</div>
+        <div class="item-05">Item 05</div>
+        <div class="item-06">Item 06</div>
+        <div class="item-07">Item 07</div>
+        <div class="item-08">Item 08</div>
+        <div class="item-09 self">Item 09</div>
+    </div>
+
+    <h2>Shorthand (align justify)</h2>
+    <code>place-self: stretch;</code>
+    <div class="container grid-06">
+        <div class="item-01">Item 01</div>
+        <div class="item-02">Item 02</div>
+        <div class="item-03 place-self">Item 03</div>
+        <div class="item-04 place-self">Item 04</div>
+        <div class="item-05">Item 05</div>
+        <div class="item-06">Item 06</div>
+        <div class="item-07">Item 07</div>
+        <div class="item-08">Item 08</div>
+        <div class="item-09 place-self">Item 09</div>
     </div>
 </body>
 </html>
