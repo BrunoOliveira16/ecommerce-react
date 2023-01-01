@@ -1,0 +1,76 @@
+.container {
+    display: grid;
+    width: 600px;
+    border: 3px solid;
+    height: 50vh;
+
+    gap: 15px;
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+}
+
+.grid-01 {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    justify-items: start;
+    align-items: center;
+}
+
+.grid-02 {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    place-items: start center;
+}
+
+.grid-03 {
+    grid-template: repeat(3, auto) / repeat(3, auto);
+    justify-content: space-around;
+}
+
+.grid-04 {
+    grid-template: repeat(3, 50px) / repeat(3, auto);
+    align-content: space-around;
+}
+
+.grid-05 {
+    grid-template: repeat(3, 50px) / repeat(3, auto);
+    place-content: space-between center;
+}
+
+code {
+    color: black;
+}
+
+.item-01 {
+    background-color: palegoldenrod;
+}
+
+.item-02 {
+    background-color: paleturquoise;
+}
+
+.item-03 {
+    background-color: palegreen;
+}
+
+.item-04 {
+    background-color: palevioletred;
+}
+
+.item-05 {
+    background-color: dodgerblue;
+}
+
+.item-06 {
+    background-color: blueviolet;
+}
+
+.item-07 {
+    background-color: palegreen;
+}
+
+.item-08 {
+    background-color: palegoldenrod;
+}
+
+.item-09 {
+    background-color: paleturquoise;
+}
