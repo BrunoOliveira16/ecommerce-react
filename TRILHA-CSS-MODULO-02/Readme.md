@@ -54,8 +54,27 @@
 - Desafio de projeto 02 para aplicar os conhecimentos de flexbox e posicionamento de elementos aprendidos.
 
 ### 4- Dominando Grid layouts no CSS
+- Apresentação e Ferramentas Utilizadas;
+- Entendendo os conceitos do Grid Layout;
+- Nomenclaturas do Grid;
+- Iniciando com o CSS Grid;
+- Adicionando colunas e linhas ao Grid;
+- Grid implícito e explícito;
+- Definindo o tamanho mínimo e máximo das faixas;
+- Alocando os itens do Grid nas posições específicas;-
+- Areas do Grid;
+- Shorthand grid-template;
+- Definindo os espaçamentos dos elementos do Grid;
+- Shorthand grid;
+- Alinhando os itens com justify-items e align-items;
+- Alinhando os itens da linha e coluna com place-items;
+- Alinhando o conteúdo do Grid com justify-content e align-content;
+- Alinhando o conteúdo do Grid horizontalmente e verticalmente com place-content;
+- Alinhando itens específicos com justify-self e align-self;
+- Alinhando itens específicos horizontalmente e verticalmente com place-self;
 
 ### 5- Reproduzindo a listagem do youtube com grid layout no CSS
+- Desafio de projeto 03 para aplicar os conhecimentos de grid layout aprendidos.
 
 ### 6- Responsividade no CSS
 
