@@ -1,0 +1,160 @@
+@import url(./global.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /*10px*/
+}
+
+body {
+    position: relative;
+    background-color: #F9F9F9;
+    margin: 0 auto;
+	font-size: 1.6rem; /*16px*/
+}
+
+/* CSS Header */
+.menu {
+	width: 100vw;
+	height: 5.6rem; /*56px*/
+	padding: 0 3.4rem; /*24px*/
+	gap: 3.2rem; /*32px*/
+
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: #FFFFFF;
+}
+
+.menu-left {
+	width: 18.6rem; /*186px*/
+	height: 2.4rem; /*24px*/
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu-left sup {
+	font-family: 'Roboto';
+	color: #5e5d5d;
+
+	position: relative;
+	top: -0.8rem; /*8px*/
+	left: -2.5rem; /*-25px*/
+}
+
+.menu-center {
+	width: 65.4rem; /*654px*/
+	height: 4rem; /*40px*/
+
+	display: flex;
+	align-items: center;
+
+	border-radius: 2rem; /*20px*/
+}
+
+.menu-center input {
+	width: 64.8rem; /*348px*/
+	height: 4rem; /*40px*/
+	font-size: 1.8rem; /*20px*/
+	padding-left: 2rem; /*20px*/
+	
+	color: #5e5d5d;
+	border: 1px solid #CCCCCC;
+	border-top-left-radius: 2rem; /*20px*/
+	border-bottom-left-radius: 2rem; /*20px*/
+}
+
+.menu-center a {
+	width: 5.7rem; /*57px*/
+	height: 4rem; /*40px*/
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	border-top-right-radius: 2rem; /*20px*/
+	border-bottom-right-radius: 2rem; /*20px*/
+}
+
+.menu-right {
+	width: 13rem; /*130px*/
+	height: 3.4rem; /*34px*/
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.avatar {
+	width: 3.4rem; /*34px*/
+	height: 3.4rem; /*34px*/
+
+	border-radius: 50%;
+}
+
+/* Main Content*/
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+
+/* Menu Nav */
+.menu-nav {
+    width: 18vw;
+    height: 100vh;
+    padding: 2.4rem;
+    position: fixed;
+    top: 5.6rem;;
+
+    background-color: #FFFFFF;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin: 1.6rem 0;
+
+    color: #000000;
+}
+
+.navigation img {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1.7rem;
+}
+
+/* Content list*/
+.content-list {
+    width: 82vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 3rem;
+
+    position: relative;
+    top: 5.6rem;
+    left: 18vw;
+}
