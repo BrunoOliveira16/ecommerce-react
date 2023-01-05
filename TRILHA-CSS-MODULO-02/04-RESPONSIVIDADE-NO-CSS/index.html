@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Trilha CSS - Responsividade</title>
+</head>
+<body>
+    <h1>Trilha CSS - Responsividade</h1>
+    <h2>Introdução ao design responsivo</h2>
+    <br><br>
+    <h3>Técnicas para responsividade</h3>
+    <ul>
+        <li>Ideia de grids fluídos;</li>
+        <li>Técnica de imagens fluídas;</li>
+        <li>Media Queries.</li>
+    </ul>
+    <br><br>
+    <h3>Design Responsivo</h3>
+    <p>Conjunto de melhores práticas para que um layout responda ao dispositivo que está sendo usado para visualizar uma página web.</p>
+    <br><br>
+    <h3>Layouts Flexíveis</h3>
+    <p>Uma das maneiras de se construir layouts flexíveis é usando o Grid Layout; Flexbox e Múltiplas Colunas, combinado com unidades de medidas relativas, incluindo as relacionadas à viewport.</p>
+    <br>
+    <h3>Multicolunas (multicol)</h3>
+    <p>Especifica-se em quantas colunas o conteúdo será dividido e o navegador irá calcular o tamanho delas conforme o tamanho da tela mudar.</p>
+    <br>
+    <h3>Flexbox</h3>
+    <p>Através do flexbox, os elementos da página serão capazes de encolher ou crescer, distribuindo o espaço entre os itens de acordo com o tamanho do container.</p>
+    <br>
+    <h3>Grids flexíveis</h3>
+    <p>Outro método extremamente eficaz de se criar layouts responsivos é utilizando o Grid Layout juntamente com a unidade de medida fr, atribuindo o espaço disponível do container entre as colunas e linhas do grid.</p>
+    <br>
+    <h3>Meta tag viewport</h3>
+    <p>A meta tag viewport irá informar para os navegadores que eles devem utilizar a largura da janela do dispositivo para exibir a página web, fazendo com que os navegadores as redimensionem melhor, ajudando na responsividade.</p>
+    <br>
+    <ul>
+        <li><b>width=device-width:</b> sobrescreve a configuração padrão dos navegadores para a largura da janela</li>
+        <li><b>initial-scale:</b> define zoom inicial da página</li>
+        <li><b>height:</b> define altura específica para a viewport</li>
+        <li><b>minimum-scale:</b> define o nível mínimo de zoom</li>
+        <li><b>maximum-scale:</b> define o nível máximo de zoom</li>
+        <li><b>user-scalable:</b> impede que o usuário aplique zoom na página caso tenha o valor definido como no</li>
+    </ul>
+    <br>
+    <h3>Media queries</h3>
+    <p>Recurso que permite aplicar propriedades do CSS somente para algumas regras de tipos de mídia específicos.</p>
+    <br>
+    <h3>Estrutura das media queries</h3>
+    <img src="./assets/imagem/img-01.jpg" alt="imagem estrutura media query" width="500" height="200">
+    <h4>@media (at-rule)</h4>
+    <img src="./assets/imagem/img-02.jpg" alt="imagem estrutura media query" width="500" height="100">
+    <p>Regra usada para identificar o tipo de mídia que uma página está sendo visualizada, informando os recursos que esse tipo de mídia suporta e os operadores que podem ser combinados para misturar algumas condições.</p>
+    <br>
+    <h4>media type / tipo de mídia</h4>
+    <img src="./assets/imagem/img-03.jpg" alt="imagem estrutura media query" width="500" height="100">
+    <p>Define o tipo de mídia que os estilos CSS devem ser aplicados.</p>
+    <ul>
+        <li>
+            <b>all:</b> corresponde a todos os dispositivos;
+        </li>
+        <li>
+            <b>screen:</b> corresponde a dispositivos com telas integradas;
+        </li>
+        <li>
+            <b>print:</b> corresponde a documentos que são uma pré-visualização de impressão, ou em qualquer mídia que será voltada para imprimir;
+        </li>
+        <li>
+            <b>speech:</b> corresponde a dispositivos que leem o conteúdo de forma audível, como um leitor de tela, por exemplo.
+        </li>
+    </ul>
+    <br>
+    <h4>media features / mídia recursos</h4>
+    <img src="./assets/imagem/img-04.jpg" alt="imagem estrutura media query" width="500" height="100">
+    <p>Configura com quais recursos de mídia se quer combinar para aplicar determinados estilos.</p>
+    <ul>
+        <li>
+            <b>min-width/min-height/max-width/max-height/width/height:</b> detecta a largura e altura da viewport;
+        </li>
+        <li>
+            <b>orientation:</b> detecta se o dispositivo está em modo retrato ou paisagem;
+        </li>
+        <li>
+            <b>hover:</b> indica que a página está sendo acessada através de um mecanismo de ponteiro, como um mouse;
+        </li>
+        <li>
+            <b>pointer:</b> detecta quão preciso é o ponteiro (grosso, fino, etc), ajudando a detectar touchscreen, mouse, etc.
+        </li>
+    </ul>
+    <br>
+    <h3>media features: e muito mais...</h3>
+    <p>Existem media queries voltados para:</p>
+    <ul>
+        <li>Viewport/características da página;</li>
+        <li>Qualidade da exibição;</li>
+        <li>Cores;</li>
+        <li>Interação;</li>
+        <li>Vídeo;</li>
+        <li>Script;</li>
+        <li>Preferências do usuário.</li>
+    </ul>
+    <br>
+    <h3>operators / operadores</h3>
+    <p>É possível combinar, através de operadores lógicos, as media features para atender as condições para aplicar os estilos</p>
+    <ul>
+        <li><b>AND:</b>deve atender a todas media features (recursos de mídia);</li>
+        <li><b>OR:</b>deve atender, no mínimo, uma das media features (recursos de mídia);</li>
+        <li><b>NOT:</b>nega as condições aplicadas, invertendo todo o significado do media query.</li>
+    </ul>
+</body>
+</html>
