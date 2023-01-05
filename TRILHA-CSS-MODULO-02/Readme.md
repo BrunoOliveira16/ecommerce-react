@@ -77,5 +77,22 @@
 - Desafio de projeto 03 para aplicar os conhecimentos de grid layout aprendidos.
 
 ### 6- Responsividade no CSS
+- Apresentação e Ferramentas Utilizadas;
+- Introdução ao Design Responsivo;
+- Layouts flexíveis - Multicolunas;
+- Layouts flexíveis - Flexbox;
+- Layouts flexíveis - Grid;
+- Meta tag viewport;
+- O que são Media Queries;
+- Estruturas;
+- Media Types;
+- Media Features (recursos de mídia);
+- Operadores;
+- Maneiras de usar as Media Queries;
+- Breakpoints;
+- Devemos sempre usar as media queries;
+- Imagens Responsivas;
+- Tipografias Responsivas;
+- Mobile First;
 
 ### 7- Construindo um layout Responsivo para o Site do discord com CSS
