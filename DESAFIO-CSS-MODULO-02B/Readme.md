@@ -3,7 +3,7 @@ Projeto de criação da listagem do youtube utilizando HTML/CSS e aplicando grid
 
 ## 💻 Screenshot do projeto
 - Designer
-![Screenshot](./assets/imagem/designer-03.jpg)
+![Screenshot](../assets/imagem/designer-03.jpg)
 
 <h4 align="center"><a href="https://brunooliveira16.github.io/bootcamp-css-web-developer-dio/DESAFIO-CSS-MODULO-02B/index.html" target="_blank">Clique aqui e visite o projeto</a></h4>
 
