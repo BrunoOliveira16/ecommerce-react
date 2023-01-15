@@ -1,0 +1,14 @@
+code {
+    background-color: lightgray;
+}
+
+::selection {
+    background-color: palegreen;
+    color: darkgreen;
+    text-decoration: line-through;
+}
+
+.exemplo p::selection {
+    background-color: lightcyan;
+    color: darkorchid;
+}

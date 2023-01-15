@@ -1,0 +1,9 @@
+code {
+    background-color: lightgray;
+}
+
+input::placeholder {
+    color: lightcoral;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}

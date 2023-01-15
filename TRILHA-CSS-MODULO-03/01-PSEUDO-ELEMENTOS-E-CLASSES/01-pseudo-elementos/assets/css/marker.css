@@ -1,0 +1,13 @@
+code {
+    background-color: lightgray;
+}
+
+summary::marker {
+    content: "➤";
+    color: red;
+}
+
+li::marker{
+    color: lightsalmon;
+    content: "☑";
+}

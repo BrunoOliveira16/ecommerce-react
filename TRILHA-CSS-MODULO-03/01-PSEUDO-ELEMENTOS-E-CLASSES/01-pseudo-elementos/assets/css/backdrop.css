@@ -1,0 +1,11 @@
+code {
+    background-color: lightgray;
+}
+
+video {
+    width: 100%;
+}
+
+video::backdrop {
+    background: rgb(85, 95, 95);
+}
