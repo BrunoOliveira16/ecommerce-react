@@ -1,0 +1,17 @@
+code {
+    background-color: lightgray;
+}
+
+.first-letter h3::first-letter {
+    color: red;
+    font-size: 2rem;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.first-letter p::first-letter {
+    color: red;
+    font-size: 1.4rem;
+    background-color: lightblue;
+    border: 1px solid black;
+}
