@@ -2,7 +2,7 @@
 Projeto de construção de layout responsivo página do discord utilizando HTML/CSS e aplicando responsividade em diferentes breakpoints.
 
 ## 💻 Screenshot do projeto
-- Designer
+
 ![Screenshot](../assets/images/desktop-preview-04.jpg)
 
 <h4 align="center"><a href="https://brunooliveira16.github.io/bootcamp-css-web-developer-dio/DESAFIO-CSS-MODULO-02C/index.html" target="_blank">Clique aqui e visite o projeto</a></h4>
