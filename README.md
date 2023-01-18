@@ -1,4 +1,4 @@
-## 📝 FORMAÇÃO CSS WEB DEVELOPER - DIO._(Digital Innovation One)
+## 📝 Formação CSS Web Developer | DIO._(Digital Innovation One)
 Este repositório trata-se dos conteúdos da trilha da DIO  CSS Web Developer.
 
 ## 📚 Descrição
