@@ -1,0 +1,38 @@
+code {
+    background-color: lightgray;
+}
+
+button {
+    background-color: darkgreen;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid darkgreen;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: palegoldenrod;
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:hover {
+    background-color: aquamarine;
+}
+
+.container button:hover {
+    background-color: darkcyan;
+    border: 2px solid darkblue;
+    color: white;
+}
