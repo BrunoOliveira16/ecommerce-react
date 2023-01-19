@@ -1,0 +1,28 @@
+code {
+    background-color: lightgray;
+}
+
+button {
+    background-color: darkgreen;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid darkgreen;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: darkmagenta;
+    border: 2px solid white;
+    color: white;
+}
+
+h1:active {
+    background-color: paleturquoise;
+    color: blue;
+}

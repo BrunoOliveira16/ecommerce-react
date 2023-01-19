@@ -1,0 +1,12 @@
+code {
+    background-color: lightgray;
+}
+
+/*button:disabled {
+    background-color: black;
+    color: yellow;
+}*/
+
+button:enabled {
+    background-color: paleturquoise;
+}

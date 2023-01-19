@@ -1,0 +1,21 @@
+code {
+    background-color: lightgray;
+}
+
+a {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.exemplo:link {
+    color: palegreen;
+    background-color: black;
+}
+.exemplo:visited {
+    color: palegreen;
+}
+
+.visited:visited {
+    color: gold;
+    
+}
