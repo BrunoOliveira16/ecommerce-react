@@ -1,0 +1,7 @@
+code {
+    background-color: lightgray;
+}
+
+input:placeholder-shown {
+    border-color: royalblue;
+}
