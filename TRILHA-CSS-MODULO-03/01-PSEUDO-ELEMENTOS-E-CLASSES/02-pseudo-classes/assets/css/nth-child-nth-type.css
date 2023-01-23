@@ -67,3 +67,21 @@ li:nth-child(3){
     color: orange;
     font-weight: bold;
 }
+
+.lista-3 li:nth-child(3n){
+    background-color: aquamarine;
+}
+
+.lista-4 li:nth-child(3n+1){
+    background-color: aquamarine;
+}
+
+/* Tabela */
+
+tr:nth-child(even) td {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) td {
+    background-color: lightgoldenrodyellow;
+}
