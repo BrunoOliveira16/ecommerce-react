@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+code {
+    background-color: lightgray;
+}
+
+figure {
+    width: 200px;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.gallery figure {
+    box-shadow: 0 0 5px 2px lightgray;
+}
+
+figcaption {
+    font-size: 0.75rem;
+}
+
+.gallery figure:has(figcaption){
+    border: 3px solid green;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.gallery figure:not(:has(figcaption)) {
+    border: 3px solid red;
+    border-radius: 4px;
+    padding: 8px;
+}
