@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 247);    
+}
+
+code {
+    background-color: lightgray;
+}
+
+
+.conteiner {
+    margin: 0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.box:hover {
+    transform: skew(20deg, 20deg);
+}
+
+/*
+    transform: skewX(20deg);
+    transform: skewy(20deg);
+*/

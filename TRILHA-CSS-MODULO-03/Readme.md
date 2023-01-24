@@ -11,8 +11,8 @@
 
 
 ## 📚 Conteúdo
-### Pseudo elementos e Pseudo classes
-#### 1- Pseudo-elementos
+### 1- Pseudo elementos e Pseudo classes
+#### 1.1- Pseudo-elementos
 - Apresentação
 - First-letter
 - First-line
@@ -23,7 +23,7 @@
 - File-selector-button
 - Before e after
 
-#### 2- Pseudo-classes
+#### 1.2- Pseudo-classes
 - Hover
 - Active
 - Focus
@@ -47,8 +47,38 @@
 - not
 - has
 
-### Transições e animações
-- em desenvolvimento...
+### 2- Transições e animações
+#### 2.1- Transformações 2D
+- apresentação
+- translate()
+- rotate()
+- rotateX() e rotateY()
+- scale()
+- skew()
+- matrix()
+
+#### 2.2- Transformações 3D
+- Perspectiva
+- Rotacionando e movendo elementos no eixo Z
+- Escalando elementos de forma tridimensional
+- Transform-origin
+- transform-style
+- Matrix3d
+- backface-visibility
+
+#### 2.3- Animações
+- Transições
+- exemplo prático - transicões e pseudo-elementos
+- iniciando com animações
+- definindo atraso e número de interações de uma animação
+- direção de reprodução e curva de velocidade da animação
+- propriedade animation-fill-mode
+- pausando a animação e shorthand animation
+- exemplo prático de animação 1
+- exemplo prático de animação 2
+- exemplo prático de animação 3
+- exemplo prático de animação 4
+- exemplo prático de animação 5
 ### Boas práticas e convenções no CSS
 - em desenvolvimento...
 ### Iniciando com seu primeiro framework em CSS: Bootstrap

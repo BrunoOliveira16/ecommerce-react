@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 247);    
+}
+
+code {
+    background-color: lightgray;
+}
+
+
+.conteiner {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box, .box-1 {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.box:hover {
+    transform: rotateX(45deg);
+}
+
+.box-1:hover {
+    transform: rotateY(45deg);
+}
