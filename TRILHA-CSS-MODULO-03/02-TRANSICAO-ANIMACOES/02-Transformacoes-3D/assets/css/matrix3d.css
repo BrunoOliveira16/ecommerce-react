@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 247);    
+}
+code {
+    background-color: lightgray;
+}
+
+.conteiner {
+    margin: 0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    perspective: 300px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #FC466B 0%, #DAAE51 100%);
+    transform: matrix3d(
+        -2.3, 0.2, -0.3, 0,
+        0, -2, 0, 0,
+        0, 0, 1, 0,
+        0, 0, 0, 1
+    )
+}
