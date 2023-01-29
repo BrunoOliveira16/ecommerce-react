@@ -2,7 +2,9 @@
 
 ## 📝 Módulo 03 - Refinando os estilos CSS das nossas páginas
 
-## 📚 Descrição
+![screenshot](../assets/images/css-developer.png)
+
+# 📚 Descrição
 - Pseudo elementos e Pseudo classes;
 - Transições e animações;
 - Boas práticas e convenções no CSS;
@@ -10,9 +12,9 @@
 - Clonando o site da HBO Max com animações em HTML e CSS;
 
 
-## 📚 Conteúdo
-### 1- Pseudo elementos e Pseudo classes
-#### 1.1- Pseudo-elementos
+# ✍ Conteúdo
+## 1- Pseudo elementos e Pseudo classes
+### 1.1- Pseudo-elementos
 - Apresentação
 - First-letter
 - First-line
@@ -23,7 +25,7 @@
 - File-selector-button
 - Before e after
 
-#### 1.2- Pseudo-classes
+### 1.2- Pseudo-classes
 - Hover
 - Active
 - Focus
@@ -47,8 +49,8 @@
 - not
 - has
 
-### 2- Transições e animações
-#### 2.1- Transformações 2D
+## 2- Transições e animações
+### 2.1- Transformações 2D
 - apresentação
 - translate()
 - rotate()
@@ -57,7 +59,7 @@
 - skew()
 - matrix()
 
-#### 2.2- Transformações 3D
+### 2.2- Transformações 3D
 - Perspectiva
 - Rotacionando e movendo elementos no eixo Z
 - Escalando elementos de forma tridimensional
@@ -66,7 +68,7 @@
 - Matrix3d
 - backface-visibility
 
-#### 2.3- Animações
+### 2.3- Animações
 - Transições
 - exemplo prático - transicões e pseudo-elementos
 - iniciando com animações
@@ -79,15 +81,31 @@
 - exemplo prático de animação 3
 - exemplo prático de animação 4
 - exemplo prático de animação 5
-### Boas práticas e convenções no CSS
+## 3- Boas práticas e convenções no CSS
+### 3.1- Hierarquias e Especificidade
+- Apresentação
+- Hierarquia do efeito em casacata
+- Especificidade
+- !important
+- Herança
+
+### 3.2- Compatibilidade entre navegadores
+- Motores de Renderizição
+- Navegadores que não suportam recursos modernos
+- Prefixo no CSS
+
+### 3.3- Organizando os estilos CSS
+- Definindo variáveis
+- BEM (Block, Element, Modifier)
+- SMACSS (Scalable and Modular Architecture for CSS)
+- OOCSS (Object Oriented CSS)
+## 4- Iniciando com seu primeiro framework em CSS: Bootstrap
 - em desenvolvimento...
-### Iniciando com seu primeiro framework em CSS: Bootstrap
-- em desenvolvimento...
-### Clonando o site da HBO Max com animações em HTML e CSS
+## 5- Clonando o site da HBO Max com animações em HTML e CSS
 - em desenvolvimento...
 
 
-## 📚 Dicas/Links Úteis
+# 💻 Dicas/Links Úteis
  
 **Artigos/Fórum:** você pode compartilhar conteúdos técnicos através de Artigos (visíveis globalmente na plataforma da DIO). Por outro lado, você também pode compartilhar suas conquistas e dúvidas usando os Fóruns (que são específicos para cada experiência educacional na DIO, como um Bootcamp por exemplo);
 
