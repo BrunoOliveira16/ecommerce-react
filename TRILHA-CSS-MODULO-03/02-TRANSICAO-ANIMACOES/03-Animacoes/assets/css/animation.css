@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 247);    
+}
+code {
+    background-color: lightgray;
+}
+
+.conteiner {
+    margin: 0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #d53369;
+    animation-name: change-background;
+    animation-duration: 4s;
+}
+/*
+@keyframes change-background {
+    from {
+        background: palegreen;
+    }
+    to {
+        background: purple;
+    }
+}*/
+
+
+@keyframes change-background {
+    0% {
+        background: palegreen;
+        width: 200px;
+        height: 200px;
+    }
+    50% {
+        background: darkblue;
+        width: 500px;
+        height: 400px;
+    }
+    100% {
+        background: purple;
+        width: 100px;
+        height: 200px;
+    }
+}

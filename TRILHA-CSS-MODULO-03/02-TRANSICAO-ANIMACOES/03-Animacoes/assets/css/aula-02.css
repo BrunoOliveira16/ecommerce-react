@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 247); 
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ca3c11;
+    text-shadow: 10px 10px 10px rgb(172, 170, 170);
+}
+
+.list {
+    background-color: #ca3c11;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 20px 20px 10px lightgray;
+}
+
+.list li {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 32px;
+    margin-bottom: 4px;
+    transition: background-color .5s;
+}
+
+.list li:hover {
+    background-color: #792308;
+    border-radius: 4px;
+}
+
+.list input {
+    accent-color: #daae51;
+}
+
+.list input:checked + span {
+    text-decoration: line-through;
+}
+
+.list li:has(input:checked){
+    background-color: #f0ab1a;
+    color: #ca3c11;
+    border-radius: 4px;
+}

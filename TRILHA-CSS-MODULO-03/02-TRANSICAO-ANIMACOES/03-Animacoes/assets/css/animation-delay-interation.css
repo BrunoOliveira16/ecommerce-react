@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 247);    
+}
+code {
+    background-color: lightgray;
+}
+
+.conteiner {
+    margin: 0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #d53369;
+    animation-name: change-background;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change-background {
+    25% {
+        background: palegreen;
+    }
+    50% {
+        background: darkblue;
+    }
+    75% {
+        background: darkolivegreen;
+    }
+    100% {
+        background: purple;
+    }
+}
