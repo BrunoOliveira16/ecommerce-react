@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/aula-01.css">
+    <title>Boas Práticas e Convenções no CSS - Trilha CSS</title>
+    <style>
+        h2 {
+            color: white;
+            background-color: palegreen;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Hierarquia do Efeito Casacata</h1>
+    <p>Estabelece uma prioridade para aplicação de uma regra de estilo, caso se tenha mais de uma regra para um mesmo seletor CSS</p>
+    <p>Se houver um conflito, o navegador irá:</p>
+    <ol>
+        <li>Analisar todas as regras;</li>
+        <li>Ver o nível de importância na origem do elemento;</li>
+        <li>Comparar a especificidade das declarações com mesmo nível de importância (entra o cálculo de especificidade);</li>
+        <li>Em caso de empate do grau de especificidade, irá olhar a ordem de declaração colocada dentro dos arquivos de código. A regra CSS que for declarada por último, irá ser selecionada.</li>
+    </ol>
+    <hr>
+    <h2 style="color: black;">[Exemplo de hierarquia]</h2>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+:root {
+    --font-size-title: 5rem;
+    --box-shadow-default: 10px 10px 10px lightgrey;
+    --text-color: red;
+    --bg-body: rgb(247, 247, 247);
+    --bg-gradient: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-body);
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    background: var(--bg-gradient);
+    font-size: var(--font-size-title);
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+/* BEM CSS */
+
+.menu {
+    background-color: rgb(30, 30, 30);
+}
+
+.menu__list {
+    margin: 0;
+    padding: 24px 0;
+}
+
+.menu__item {
+    display: inline-block;
+    color: white;
+    margin: 0 16px;
+}
+
+.menu__link {
+    color: white;
+    background: var(--bg-gradient);
+    padding: 12px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.menu__item--active {
+    font-weight: bold;
+    color: #00d9ff;
+}

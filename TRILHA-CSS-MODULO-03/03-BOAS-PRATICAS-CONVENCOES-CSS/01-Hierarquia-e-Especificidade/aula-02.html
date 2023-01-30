@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/aula-02.css">
+    <title>Boas Práticas e Convenções no CSS - Trilha CSS</title>
+
+</head>
+<body>
+    <h1>Especifidade</h1>
+
+    <main id="conteudo">
+        <p class="texto">Texto 01</p>
+        <p>Texto 02</p>
+    </main>
+
+    <p>Texto 03</p>
+
+    <br><hr><br>
+
+    <h6>Cálculo de Especifidade</h6>
+    <ol>
+        <li>Inline: 1000 pontos</li>
+        <li>Id: 100 pontos</li>
+        <li>Classes, pseudo-classes e atributos: 10 pontos</li>
+        <li>Tag HTML: 1 ponto</li>
+    </ol>
+
+    <br><hr><br>
+
+    <ul>
+        <li><b>#exemplo h1.titulo</b> = 111 pontos</li>
+        <li><b>a:hover</b> = 11 pontos</li>
+        <li><b>div p</b> = 2 pontos</li>
+    </ul>
+
+</body>
+</html>

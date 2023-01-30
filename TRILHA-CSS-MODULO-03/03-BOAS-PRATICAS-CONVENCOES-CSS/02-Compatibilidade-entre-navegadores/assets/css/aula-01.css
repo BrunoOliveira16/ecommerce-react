@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#exemplo::before {
+    content: "•";
+    margin-right: 10px;
+}
+
+ul {
+    list-style: circle;
+}
+
+.content {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.content h1 {
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+    font-size: 5rem;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
