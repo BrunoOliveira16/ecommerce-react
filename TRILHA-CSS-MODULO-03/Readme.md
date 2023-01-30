@@ -100,7 +100,22 @@
 - SMACSS (Scalable and Modular Architecture for CSS)
 - OOCSS (Object Oriented CSS)
 ## 4- Iniciando com seu primeiro framework em CSS: Bootstrap
-- em desenvolvimento...
+### 4.1- Framework CSS
+- Apresentação
+- O que é um framework?
+- Framework CSS
+### 4.2- Iniciando com Bootstrap
+- Documentação e adicionando o framework ao projeto prático
+- Menu de navegação
+- Carrosel de imagens
+- Adicionando a citação
+- Criando a sessão de cards sobre a empresa
+- Ajustando menu de navegação e carrosel de imagens
+- Organizando as abas do catálogo
+- Adicionando os cards dos produtos do cardápio
+- Modal de localização
+- Criando o rodapé e finalizando o projeto
+- Ajustes finais
 ## 5- Clonando o site da HBO Max com animações em HTML e CSS
 - em desenvolvimento...
 
