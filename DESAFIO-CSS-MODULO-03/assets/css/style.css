@@ -1,6 +1,7 @@
 @import url(./vars.css);
 @import url(./global.css);
 @import url(./nav.css);
+@import url(./footer.css);
 
 * {
     box-sizing: border-box;
@@ -15,6 +16,12 @@ body {
     color: var(--text-color);
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+}
 
 .button {
     padding: 1rem 2.5rem;
@@ -30,4 +37,9 @@ body {
     border-radius: 31.25rem;
 
     cursor: pointer;
+}
+
+.text--small {
+    font-size: 1rem;
+    font-weight: 300;
 }
