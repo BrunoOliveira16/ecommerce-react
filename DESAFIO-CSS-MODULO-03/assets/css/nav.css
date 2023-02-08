@@ -44,7 +44,7 @@
     color: var(--btn-link-color);
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 510px){
     .menu {
         padding: 2rem 1.5rem;
         flex-direction: column;

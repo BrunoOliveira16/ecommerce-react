@@ -8,6 +8,7 @@
     <title>HBO Max</title>
 </head>
 <body>
+    <!--Navigation-->
     <nav class="menu">
         <a href="index.html" class="menu__logo">
             <img src="./assets/images/hbo-logo.svg" alt="Logotipo HBOMax com o nome da marca" class="menu__logo-image">
@@ -17,16 +18,42 @@
             <a href="#subscription" class="menu__item menu__item--button button">Assine Agora</a>
         </div>
     </nav>
-    
-    <header class="header"></header>
-
+    <!-- Header -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__channels">
+                <img src="./assets/images/hbo.png" alt="logo da HBO" class="header__channel">
+                <img src="./assets/images/dc.png" alt="logo da DC" class="header__channel">
+                <img src="./assets/images/wb.png" alt="logo da Warner Bross" class="header__channel">
+                <img src="./assets/images/cartoon-network_neutral.png" alt="logo do Cartoon Network" class="header__channel">
+                <img src="./assets/images/max_originals.png" alt="logo do Max Originals" class="header__channel">
+            </div>
+            <h1 class="header__title">
+                <span class="header__title--light">Curta as melhores histórias</span>
+                Para todo mundo
+            </h1>
+            <div class="divider"></div>
+            <div class="ofter">
+                <p>Assinaturas a partir de</p>
+                <p class="offter__price">
+                    R$ 14,15 <span class="offter__price--small">/mês*</span>
+                </p>
+            </div>
+            <a href="#subscription" class="button button--gradient header__button">Assine agora</a>
+            <p class="text--small">
+                *aplicável ao plano anual com o pagamento antecipado.
+            </p>
+        </div>
+    </header>
+    <!--main content-->
     <main>
+        <!--Subscription section-->
         <section id="subscription" class="subscription">
-            <br><br><br><br><br><br>
+        <!-- Cards Content section-->    
         </section>
         <section id="contents" class="contents"></section>
     </main>
-
+    <!--Footer-->
     <footer class="footer container">
         <div>
             <a href="https://www.hbomax.com/br/pt/sitemap" class="footer__link">Agora no HBO Max</a>

@@ -2,6 +2,7 @@
 @import url(./global.css);
 @import url(./nav.css);
 @import url(./footer.css);
+@import url(./header.css);
 
 * {
     box-sizing: border-box;
@@ -15,6 +16,7 @@ body {
     background-color: var(--primary-color);
     color: var(--text-color);
 }
+
 
 .container {
     max-width: 1200px;
@@ -37,6 +39,20 @@ body {
     border-radius: 31.25rem;
 
     cursor: pointer;
+}
+
+.button--gradient {
+    background: var(--btn-bg-color-gradient);
+    outline: 3px solid transparent;
+    transition: background 1s, outline 1s, transform 1s;
+    background-size: 250%;
+}
+
+.button--gradient:hover {
+    background-color: transparent;
+    background-position: 100%;
+    outline: 2px solid var(--secondary-color);
+    transform: scale(1.05);
 }
 
 .text--small {
