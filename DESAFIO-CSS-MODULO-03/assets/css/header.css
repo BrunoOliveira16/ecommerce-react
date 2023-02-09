@@ -6,7 +6,7 @@
     background: linear-gradient(-45deg, #56125b, #0f0f10, #271e6e);
     background-size: 400% 400%;
 
-    animation: gradient 10s ease infinite alternate;
+    animation: gradient 5s ease infinite alternate;
 }
 
 .header::after {

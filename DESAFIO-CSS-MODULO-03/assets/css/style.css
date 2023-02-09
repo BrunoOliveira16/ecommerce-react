@@ -4,6 +4,7 @@
 @import url(./footer.css);
 @import url(./header.css);
 @import url(./subscription.css);
+@import url(./contents.css);
 
 * {
     box-sizing: border-box;
@@ -67,4 +68,19 @@ section {
 .text--small {
     font-size: 1rem;
     font-weight: 300;
+}
+
+/* Custom Scroll */
+
+::-webkit-scrollbar {
+width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+background: var(--tertiary-color);
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: var(--secondary-color);
 }
