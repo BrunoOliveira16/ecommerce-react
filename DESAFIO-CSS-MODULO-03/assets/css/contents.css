@@ -79,3 +79,23 @@ background-image: url("../images/UCL-Hover.webp");
         grid-template-columns: repeat(2, 1fr);
     }  
 }
+
+@media screen and (max-width: 480px) {
+    .contents__container {
+        grid-template-columns: repeat(6, 100%);
+        grid-auto-flow: column;
+        overflow: auto hidden;
+    }
+}
+
+@media (pointer: coarse) {
+    .contents__card:hover {
+        transform: none;
+    }
+    .subscription__plans:has(.subscription__card:nth-child(1):hover)
+    .subscription__card:nth-child(2),
+    .subscription__plans:has(.subscription__card:nth-child(2):hover)
+    .subscription__card:nth-child(1) {
+    transform: none;
+  }
+}
