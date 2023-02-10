@@ -23,12 +23,17 @@ section {
     scroll-margin-top: 5rem;
 }
 
+p {
+    font-family: "Quicksand", sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
     padding: 1.5rem;
     text-align: center;
 }
+
 
 .title {
     font-size: 2rem;

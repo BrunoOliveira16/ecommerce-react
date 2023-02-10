@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>HBO Max - SignIn</title>
+    <link rel="stylesheet" href="./assets/css/signIn.css">
+    <title>HBO Max - Entrar</title>
 </head>
 <body>
     <nav class="menu">
@@ -17,6 +18,19 @@
             <a href="#subscription" class="menu__item menu__item--button button">Assine Agora</a>
         </div>
     </nav>
+
+    <main class="content">
+        <form class="login container">
+            <h1 class="login__title">Entrar</h1>
+            <label class="login__label">Você tem uma conta da HBO Max?</label>
+            <input type="email" name="email" id="email" class="login__field" placeholder="Endereço de e-mail">
+            <input type="password" name="password" id="password" class="login__field" placeholder="Senha" minlength="8">
+            <div class="login__actions">
+                <button type="submit" class="button button--gradient">Entrar</button>
+                <a href="#" class="login__link">Esqueceu a senha?</a>
+            </div>
+        </form>
+    </main>
 
     <footer class="footer container">
         <div>
