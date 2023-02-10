@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #33A8DB;
+    --secondary-color: #FFFFFF;
+    --tertiary-color: #020e13;
+
+    --bg-gradient-color: linear-gradient(
+        -45deg,
+        #1757b8,
+        #0f0f10,
+        #271e6e
+    );
+}

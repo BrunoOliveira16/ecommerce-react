@@ -1,29 +1,39 @@
+@import url(./global.css);
+
 body {
-    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background: var(--bg-gradient-color);
+    background-size: 400% 400%;
+
+    animation: gradient 5s ease infinite alternate;
 }
+
 h1 {
     font-family: 'Raleway';
     font-weight: 900;
     font-size: 2.5rem;
     text-transform: uppercase;
     text-align: center;
-    color: #33A8DB;
-    text-shadow: 5px 5px 0px #031922;
+    color: var(--primary-color);
+    text-shadow: 5px 5px 0px var(--tertiary-color);
 }
+
 p {
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.9rem;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--secondary-color);
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    margin: 50px 0;
+    margin: 3.125rem 0;
     padding: 1.5rem
 }
 
@@ -32,18 +42,18 @@ p {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    border: 3px solid #33A8DB;
+    border: 3px solid var(--primary-color);
     transition: 0.8s;
 }
 
 .card:hover {
-    box-shadow: 5px 15px 15px 10px #031922;
+    box-shadow: 5px 15px 15px 10px var(--tertiary-color);
 }
 
 .card-image {
     margin-bottom: 10px;
     width: 100%;
-    height: 300px;
+    height: 18.75rem;
 }
 
 .card-image img {
@@ -58,12 +68,13 @@ p {
 
 .card-image img:hover {
 	transform: scale(1.1);
+    border-bottom: 3px solid var(--primary-color);
 } 
 
 .card-content {
     display: flex;
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     text-align: justify;
 }
 
@@ -72,9 +83,10 @@ p {
     font-weight: 700;
     text-align: left;
     font-size: 1.5rem;
-    color: #33A8DB;
+    color: var(--primary-color);
     text-transform: uppercase;
     margin: 0;
+    margin-top: 1rem;
 }
 
 .card-content p {
@@ -90,16 +102,79 @@ p {
 
 .card-content-link a {
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
     font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
-    padding: 5px 0;
+    padding: .5rem 0;
     transition: 0.8s;
 }
 
 .card-content-link a:hover {
     cursor: pointer;
-    background-color: #33A8DB;
+    background-color: var(--primary-color);
+}
+
+footer {
+	height: 3rem;
+    padding: 1.5rem;
+	overflow: hidden;
+
+	font-family: 'Roboto';
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+footer a {
+    text-align: center;
+	text-decoration: none;
+	color: var(--primary-color);
+	font-weight: 900;
+}
+
+@media screen and (max-width: 950px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    h1, p {
+        padding: .5rem 2rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .card-content p {
+        padding: 0;
+        text-align: left;
+    }
+
+    .card-content-link {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
