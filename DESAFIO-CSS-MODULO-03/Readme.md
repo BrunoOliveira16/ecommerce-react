@@ -1,8 +1,16 @@
-<h1 align="center"> 📌Clonando o Site da HBO Max</h1>
+<h1 align="center"> 📌Clone HBO Max</h1>
 
 O projeto é um clone do site HBO Max, com o intuito de reproduzir a interface, com algumas modificações, aplicando os temas abordados ao longo das aulas de CSS da plataforma da Digital Innovation One.
 
 O clone do site HBO Max serve como desafio para os alunos da plataforma testarem seus conhecimentos e colocarem em prática os recursos de HTML e CSS abordados nos cursos.
+
+<br>
+
+![Screenshot](../assets/images/desktop-preview-HBO-01.jpg)
+<br>
+![Screenshot](../assets/images/desktop-preview-HBO-02.jpg)
+<br>
+![Screenshot](../assets/images/desktop-preview-HBO-03.jpg)
 
 <br>
 
@@ -46,12 +54,12 @@ Recursos CSS presentes no projeto:
 <br>
 
 ## 🏆 Desafio
-Aplicar os conceitos aprendidos em CSS, utilizando animações, transições, design responsivo, efeitos de interações dos elementos com o usuário.
+Aplicar os conceitos aprendidos em CSS, utilizando animações, transições, design responsivo, efeitos de interações dos elementos com o usuário, validação de form com css e utilização tanto de grid layout como flexbox.
 
 <br>
 
 ## 💻 Demonstração
-Você pode acessar ao resultado final do projeto clicando aqui.
+Você pode acessar ao resultado final do projeto <a href="https://brunooliveira16.github.io/Formacao-CSS-Web-Developer-DIO/DESAFIO-CSS-MODULO-03/index.html">Clicando aqui</a>.
 
 <br>
 
