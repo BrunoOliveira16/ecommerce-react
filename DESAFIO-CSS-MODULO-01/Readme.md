@@ -1,11 +1,58 @@
-## Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+<h1 align="center">📌 <b>Landing Page Trilha de CSS DIO</b></h1>
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS, as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+Projeto consiste em construir uma Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS, as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas.
+
+<br>
 
 ![Screen](./assets/imagem/screen.png)
 
-Para você realizar o desafio, basta fazer um fork para o seu GitHub e começar a mexer no projeto. Dentro da pasta main, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas de estilo para que o resultado da estilização funcione.
+<br>
 
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores, é necessário utilizar a propriedade -webkit-background-clip: text;*
+## 📎 **Sumário**
+- ⭐ Features
+- 📂 Temas abordados
+- 🏆 Desafio
+- 💻 Demonstração
+- 🙋🏻‍♂️ Autor
 
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch final. Basta alterar a branch do projeto utilizando o comando **git checkout final** no seu terminal.
+<br>
+
+## ⭐ **Features**
+
+- Botões interativos
+- Utilização do hover para efeitos de sombra
+- Utilização de gradiente em textos e background
+- Background fixo em uma das seções
+- centralização dos elementos
+- UI Responsiva
+
+<br>
+
+## 📂 **Temas abordados**
+
+Recursos CSS presentes no projeto:
+
+- Fundamentos do CSS
+- Sombras
+- Linear Gradient
+- Propriedades de Background
+- Unidades de medidas relativas (rem)
+- Responsividade*
+
+*A responsividade da página foi adicionada depois*
+
+<br>
+
+## 🏆 **Desafio**
+Aplicar os fundamentos do CSS para construção da landing page e implementar as features apresentadas com os temas abordados descritos, respeitando sempre as boas práticas de desenvolvimento.
+
+<br>
+
+## 💻 **Demonstração**
+Você pode acessar ao resultado final do projeto <a href="https://brunooliveira16.github.io/Formacao-CSS-Web-Developer-DIO/DESAFIO-CSS-MODULO-01/index.html"><b>Clicando aqui</b></a>.
+
+<br>
+
+## 🙋🏻‍♂️ **Autor**
+
+Bruno Oliveira
