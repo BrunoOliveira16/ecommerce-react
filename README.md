@@ -1,72 +1,46 @@
-<h1>📌 <b>Formação CSS Web Developer</b></h1>
+# Getting Started with Create React App
 
-Este repositório de conteúdos da trilha da DIO  CSS Web Developer.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![screenshot](./assets/images/css-developer.png)
+## Available Scripts
 
-<br>
+In the project directory, you can run:
 
-## 📚 **Descrição**
-O Bootcamp consiste em 3 módulos principais, que são:
-- Primeiros Passos com CSS;
-- Trabalhando com Layout no CSS;
-- Refinando os estilos CSS das nossas páginas;
+### `npm start`
 
-A Formação possui 6 projetos práticos com CSS aplicando técnicas com flexbox, grid-layouts, animações e manipulação de pseudo elementos, classes e utilização do framework Bootstrap.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Para mais informações detalhadas dos módulos, o conteúdo está todos descrito nos readmes das respectivas pastas de cada módulo apresentado.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-<br>
+### `npm test`
 
-## 📎 **Sumário**
-- ⭐ Projetos
-- 📂 Temas abordados
-- 🏆 Desafio
-- 💻 Demonstração
-- 🙋🏻‍♂️ Autor
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<br>
+### `npm run build`
 
-## ⭐ **Features**
-- Landing page DIO
-- Clone do youtube com Flexbox
-- Listagem do youtube com grid layout
-- Site do Discord responsivo
-- Coffee Shop com Bootstrap
-- Clone HBO Max
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<br>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 📂 **Temas abordados**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Recursos CSS presentes nos projetos:
+### `npm run eject`
 
-- Fundamentos do CSS
-- Grid Layout
-- Flexbox
-- Responsividade
-- Pseudo-elementos
-- Pseudo-classes
-- Transformações 2D e 3D
-- Transições e animações
-- Tratamento de campos inválidos no formulário
-- Bootstrap
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-<br>
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 💻 **Demonstração**
-Você pode acessar todos os projetos realizados <a href="https://brunooliveira16.github.io/Formacao-CSS-Web-Developer-DIO/" target="_blank">Clicando aqui</a>.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-<br>
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## 🏆 **Desafio**
-Implementar os 6 projetos da trilha com as especificações e features exigidas.
+## Learn More
 
-<br> 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-![screenshot](./assets/images/desktop-preview-00.jpg)
-
-<br>
-
-## 🙋🏻‍♂️ **Autor**
-Bruno Oliveira
+To learn React, check out the [React documentation](https://reactjs.org/).
