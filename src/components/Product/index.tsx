@@ -1,4 +1,4 @@
-import { getDescription } from '../../utils/functions'
+import { getDescription, getTitle } from '../../utils/functions'
 import Tag from '../Tag'
 import { Card, Title, Description, Infos } from './styles'
 
@@ -9,6 +9,7 @@ type Props = {
   description: string
   infos: string[]
   image: string
+  id: number
 }
 
 const Product = ({
@@ -17,17 +18,18 @@ const Product = ({
   system,
   description,
   infos,
-  image
+  image,
+  id
 }: Props) => {
   return (
-    <Card>
+    <Card to={`/product/${id}`}>
       <img src={image} alt={title} />
       <Infos>
         {infos.map((info) => (
           <Tag key={info}>{info}</Tag>
         ))}
       </Infos>
-      <Title>{title}</Title>
+      <Title>{getTitle(title)}</Title>
       <Tag>{category}</Tag>
       <Tag>{system}</Tag>
       <Description>{getDescription(description)}</Description>
