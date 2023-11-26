@@ -5,9 +5,24 @@ export function formatPrice(price = 0) {
   }).format(price)
 }
 
+export function getPrices(price: number | undefined | null) {
+  if (price !== null && price !== undefined) {
+    return formatPrice(price)
+  }
+
+  return 0
+}
+
 export function getDescription(description: string) {
-  if (description.length > 95) {
-    return description.slice(0, 92) + '...'
+  if (description.length > 87) {
+    return description.slice(0, 84) + '...'
   }
   return description
+}
+
+export function getTitle(title: string) {
+  if (title.length > 33) {
+    return title.slice(0, 30) + '...'
+  }
+  return title
 }
