@@ -1,3 +1,4 @@
+import { getDescription } from '../../utils/functions'
 import Tag from '../Tag'
 import { Card, Title, Description, Infos } from './styles'
 
@@ -29,7 +30,7 @@ const Product = ({
       <Title>{title}</Title>
       <Tag>{category}</Tag>
       <Tag>{system}</Tag>
-      <Description>{description}</Description>
+      <Description>{getDescription(description)}</Description>
     </Card>
   )
 }
