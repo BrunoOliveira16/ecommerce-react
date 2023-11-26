@@ -3,7 +3,7 @@ import { GameProps } from '../../pages/Home'
 import Tag from '../Tag'
 import Button from '../Button'
 import { Image, Prices, Title } from './styles'
-import { formatPrice } from '../../utils/functions'
+import { getPrices } from '../../utils/functions'
 
 const Banner = () => {
   const [game, setGame] = useState<GameProps>()
@@ -16,14 +16,6 @@ const Banner = () => {
 
   if (!game) {
     return <h3>Carregando...</h3>
-  }
-
-  const getPrices = (price: number | undefined | null) => {
-    if (price !== null && price !== undefined) {
-      return formatPrice(price)
-    }
-
-    return 0
   }
 
   return (
@@ -40,7 +32,7 @@ const Banner = () => {
         </div>
         <Button
           type="link"
-          to="/produto"
+          to={`/product/${game.id}`}
           title="Clique aqui para aproveitar está oferta"
         >
           Aproveitar
