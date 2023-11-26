@@ -2,9 +2,9 @@ import { useState } from 'react'
 
 import Section from '../Section'
 import { GalleryItemProps } from '../../pages/Home'
+
 import { Itens, Item, Action, Modal, ModalContent } from './styles'
 
-import horgwarts from '../../assets/images/fundo_hogwarts.png'
 import play from '../../assets/images/play.png'
 import zoom from '../../assets/images/zoom.png'
 import close from '../../assets/images/close.png'
@@ -12,32 +12,14 @@ import close from '../../assets/images/close.png'
 type GalleryProps = {
   defaultCover: string
   name: string
+  itens: GalleryItemProps[]
 }
 
 interface ModalStateProps extends GalleryItemProps {
   isVisible?: boolean
 }
 
-const mock: GalleryItemProps[] = [
-  {
-    type: 'image',
-    url: horgwarts
-  },
-  {
-    type: 'video',
-    url: 'https://www.youtube.com/embed/hcPbMyHC3-Q?si=9dKJA-q2PiXUb6Br'
-  },
-  {
-    type: 'image',
-    url: horgwarts
-  },
-  {
-    type: 'video',
-    url: 'https://www.youtube.com/embed/hcPbMyHC3-Q?si=9dKJA-q2PiXUb6Br'
-  }
-]
-
-const Gallery = ({ defaultCover, name }: GalleryProps) => {
+const Gallery = ({ defaultCover, name, itens }: GalleryProps) => {
   const [modal, setModal] = useState<ModalStateProps>({
     isVisible: false,
     type: 'image',
@@ -82,7 +64,7 @@ const Gallery = ({ defaultCover, name }: GalleryProps) => {
     <>
       <Section title="Galeria" background="black">
         <Itens>
-          {mock.map((media, index) => (
+          {itens.map((media, index) => (
             <Item key={media.url} onClick={() => openModal(media)}>
               <img
                 src={getMediaCover(media)}
