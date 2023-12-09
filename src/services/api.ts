@@ -22,7 +22,7 @@ const api = createApi({
       query: () => 'esportes'
     }),
     getSimulationGames: builder.query<GameProps[], void>({
-      query: () => 'simulação'
+      query: () => 'simulacao'
     }),
     getFightGames: builder.query<GameProps[], void>({
       query: () => 'luta'
