@@ -1,7 +1,12 @@
-import { GameProps } from '../../pages/Home'
+import { useDispatch } from 'react-redux'
+
+import { add, open } from '../../store/reducers/cart'
 import { getPrices } from '../../utils/functions'
+import { GameProps } from '../../pages/Home'
+
 import Button from '../Button'
 import Tag from '../Tag'
+
 import { Banner, Infos } from './styles'
 
 type GameHeroProps = {
@@ -9,6 +14,13 @@ type GameHeroProps = {
 }
 
 const Hero = ({ game }: GameHeroProps) => {
+  const dispatch = useDispatch()
+
+  const addToCart = () => {
+    dispatch(add(game))
+    dispatch(open())
+  }
+
   return (
     <Banner style={{ backgroundImage: `url(${game.media.cover})` }}>
       <div className="container">
@@ -30,6 +42,7 @@ const Hero = ({ game }: GameHeroProps) => {
                 variant="primary"
                 type="button"
                 title="Clique aqui para adicionar o jogo ao carrinho"
+                onClick={addToCart}
               >
                 Adicionar ao carrinho
               </Button>
