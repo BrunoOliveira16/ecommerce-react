@@ -6,6 +6,7 @@ import { store } from './store'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Cart from './components/Cart'
 
 import { GlobalStyles } from './global/styles'
 
@@ -19,6 +20,7 @@ function App() {
         </div>
         <Rotas />
         <Footer />
+        <Cart />
       </BrowserRouter>
     </Provider>
   )
