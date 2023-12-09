@@ -13,7 +13,7 @@ export type GameProps = {
   name: string
   description: string
   release_date?: string
-  prices?: {
+  prices: {
     discount?: number | null
     old?: number | null
     current?: number
