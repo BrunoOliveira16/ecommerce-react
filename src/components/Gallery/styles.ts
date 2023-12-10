@@ -3,6 +3,7 @@ import { Colors } from '../../global/styles'
 
 export const Itens = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 `
 
