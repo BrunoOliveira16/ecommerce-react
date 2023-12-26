@@ -40,7 +40,7 @@ const Hero = ({ game }: GameHeroProps) => {
               </p>
               <Button
                 variant="primary"
-                type="button"
+                kind="button"
                 title="Clique aqui para adicionar o jogo ao carrinho"
                 onClick={addToCart}
               >
