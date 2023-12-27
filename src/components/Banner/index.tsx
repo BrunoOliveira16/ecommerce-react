@@ -26,7 +26,7 @@ const Banner = () => {
           </Prices>
         </div>
         <Button
-          type="link"
+          kind="link"
           to={`/product/${game.id}`}
           title="Clique aqui para aproveitar está oferta"
         >

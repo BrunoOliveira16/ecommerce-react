@@ -15,8 +15,8 @@ export const Card = styled(Link)`
   img {
     display: block;
     width: 100%;
-    height: 250px;
-    object-fit: cover;
+    height: 300px;
+    object-fit: fill;
   }
 
   ${TagContainer} {
