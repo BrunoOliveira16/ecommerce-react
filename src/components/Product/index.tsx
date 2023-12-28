@@ -1,4 +1,4 @@
-import { getDescription, getTitle } from '../../utils/functions'
+import { getDescription } from '../../utils/functions'
 import Tag from '../Tag'
 import { Card, Title, Description, Infos } from './styles'
 
@@ -22,14 +22,17 @@ const Product = ({
   id
 }: Props) => {
   return (
-    <Card to={`/product/${id}`}>
+    <Card
+      title={`Clique aqui para ver mais detalhes do jogo: ${title}`}
+      to={`/product/${id}`}
+    >
       <img src={image} alt={title} />
       <Infos>
         {infos.map((info) => (
           <Tag key={info}>{info}</Tag>
         ))}
       </Infos>
-      <Title>{getTitle(title)}</Title>
+      <Title>{title}</Title>
       <Tag>{category}</Tag>
       <Tag>{system}</Tag>
       <Description>{getDescription(description)}</Description>

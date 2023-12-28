@@ -14,8 +14,8 @@ export function getPrices(price: number | undefined | null) {
 }
 
 export function getDescription(description: string) {
-  if (description.length > 87) {
-    return description.slice(0, 84) + '...'
+  if (description.length > 150) {
+    return description.slice(0, 157) + '...'
   }
   return description
 }
