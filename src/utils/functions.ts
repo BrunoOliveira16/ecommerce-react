@@ -1,3 +1,5 @@
+import { GameProps } from '../pages/Home'
+
 export function formatPrice(price = 0) {
   return new Intl.NumberFormat('pt-BR', {
     style: 'currency',
@@ -25,4 +27,10 @@ export function getTitle(title: string) {
     return title.slice(0, 30) + '...'
   }
   return title
+}
+
+export const getTotalPrice = (items: GameProps[]) => {
+  return items.reduce((prevValue, currentValue) => {
+    return (prevValue += currentValue.prices.current!)
+  }, 0)
 }
