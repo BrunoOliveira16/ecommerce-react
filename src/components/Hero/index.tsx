@@ -7,7 +7,7 @@ import { GameProps } from '../../pages/Home'
 import Button from '../Button'
 import Tag from '../Tag'
 
-import { Banner, Infos } from './styles'
+import * as S from './styles'
 
 type GameHeroProps = {
   game: GameProps
@@ -22,13 +22,13 @@ const Hero = ({ game }: GameHeroProps) => {
   }
 
   return (
-    <Banner style={{ backgroundImage: `url(${game.media.cover})` }}>
+    <S.Banner style={{ backgroundImage: `url(${game.media.cover})` }}>
       <div className="container">
         <div>
           <Tag>{game.details.category}</Tag>
           <Tag>{game.details.system}</Tag>
         </div>
-        <Infos>
+        <S.Infos>
           <h2>{game.name}</h2>
           {game.prices?.current && (
             <>
@@ -48,9 +48,9 @@ const Hero = ({ game }: GameHeroProps) => {
               </Button>
             </>
           )}
-        </Infos>
+        </S.Infos>
       </div>
-    </Banner>
+    </S.Banner>
   )
 }
 

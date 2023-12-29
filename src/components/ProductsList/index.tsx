@@ -1,7 +1,7 @@
 import Product from '../Product'
 import { GameProps } from '../../pages/Home'
 import { formatPrice, getTitle } from '../../utils/functions'
-import { Container, List, Title } from './styles'
+import * as S from './styles'
 
 export type Props = {
   title: string
@@ -30,10 +30,10 @@ const ProductsList = ({ background, title, games, id }: Props) => {
   }
 
   return (
-    <Container id={id} background={background}>
+    <S.Container id={id} background={background}>
       <div className="container">
-        <Title>{getTitle(title)}</Title>
-        <List>
+        <S.Title>{getTitle(title)}</S.Title>
+        <S.List>
           {games.map((game) => (
             <li key={game.id}>
               <Product
@@ -47,9 +47,9 @@ const ProductsList = ({ background, title, games, id }: Props) => {
               />
             </li>
           ))}
-        </List>
+        </S.List>
       </div>
-    </Container>
+    </S.Container>
   )
 }
 

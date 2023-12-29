@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Section from '../Section'
 import { GalleryItemProps } from '../../pages/Home'
 
-import { Itens, Item, Action, Modal, ModalContent } from './styles'
+import * as S from './styles'
 
 import play from '../../assets/images/play.png'
 import zoom from '../../assets/images/zoom.png'
@@ -63,33 +63,33 @@ const Gallery = ({ defaultCover, name, itens }: GalleryProps) => {
   return (
     <>
       <Section title="Galeria" background="black">
-        <Itens>
+        <S.Itens>
           {itens.map((media, index) => (
-            <Item key={media.url} onClick={() => openModal(media)}>
+            <S.Item key={media.url} onClick={() => openModal(media)}>
               <img
                 src={getMediaCover(media)}
                 alt={`Midia ${index + 1} de ${name}`}
               />
-              <Action>
+              <S.Action>
                 <img
                   src={getMediaIcon(media)}
                   alt="Clique aqui para maximizar a midia"
                 />
-              </Action>
-            </Item>
+              </S.Action>
+            </S.Item>
           ))}
-        </Itens>
+        </S.Itens>
       </Section>
-      <Modal className={modal.isVisible ? 'visible' : ''}>
-        <ModalContent className="container">
+      <S.Modal className={modal.isVisible ? 'visible' : ''}>
+        <S.ModalContent className="container">
           <header>
             <h4>{name}</h4>
             <img src={close} alt="Fechar" onClick={closeModal} />
           </header>
           {handleShowImageOrVideo(modal)}
-        </ModalContent>
+        </S.ModalContent>
         <div className="overlay" onClick={closeModal}></div>
-      </Modal>
+      </S.Modal>
     </>
   )
 }
