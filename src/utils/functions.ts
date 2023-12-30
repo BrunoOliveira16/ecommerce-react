@@ -26,3 +26,9 @@ export function getTitle(title: string) {
   }
   return title
 }
+
+export const getTotalPrice = (items: GameProps[]) => {
+  return items.reduce((prevValue, currentValue) => {
+    return (prevValue += currentValue.prices.current!)
+  }, 0)
+}
