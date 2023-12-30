@@ -34,6 +34,10 @@ type PurchasePayload = {
   }
 }
 
+type PurchaseResponse = {
+  orderId: string
+}
+
 const api = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: 'https://fake-api-tau.vercel.app/api/eplay'
@@ -67,7 +71,7 @@ const api = createApi({
       query: (id) => `jogos/${id}`
     }),
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    purchase: builder.mutation<any, PurchasePayload>({
+    purchase: builder.mutation<PurchaseResponse, PurchasePayload>({
       query: (body) => ({
         url: 'checkout',
         method: 'POST',
