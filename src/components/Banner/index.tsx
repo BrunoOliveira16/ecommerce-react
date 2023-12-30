@@ -3,6 +3,7 @@ import { getPrices } from '../../utils/functions'
 
 import Tag from '../Tag'
 import Button from '../Button'
+import Loader from '../Loader'
 
 import * as S from './styles'
 
@@ -10,7 +11,7 @@ const Banner = () => {
   const { data: game } = useGetFeaturedGameQuery()
 
   if (!game) {
-    return <h3>Carregando...</h3>
+    return <Loader />
   }
 
   return (
@@ -29,6 +30,7 @@ const Banner = () => {
           kind="link"
           to={`/product/${game.id}`}
           title="Clique aqui para aproveitar está oferta"
+          variant="primary"
         >
           Aproveitar
         </Button>
