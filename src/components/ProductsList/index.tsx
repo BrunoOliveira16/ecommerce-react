@@ -1,5 +1,4 @@
 import Product from '../Product'
-import { GameProps } from '../../pages/Home'
 import Loader from '../Loader'
 
 import { formatPrice, getTitle } from '../../utils/functions'

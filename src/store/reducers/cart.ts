@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { GameProps } from '../../pages/Home'
 
 type CartState = {
   items: GameProps[]
